@@ -203,6 +203,7 @@ export default function Home() {
             Highlights
           </h2>
         </div>
+
         <div className="mx-auto mb-4">
           <Image
             className="rounded-lg"
@@ -212,9 +213,10 @@ export default function Home() {
             alt="Code"
           ></Image>
         </div>
+
         <div className="flex flex-col justify-center items-center">
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
-            Memory Wall
+          Forever in Our Hearts: Treasured Memories
           </h2>
           <SlideshowLightbox
             className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
@@ -235,43 +237,7 @@ export default function Home() {
             ))}
           </SlideshowLightbox>
 
-          <div className="flex flex-row m-auto mt-4 space-x-4">
-            <SocialIcon
-              url="https://t.me/mech_anime"
-              network="telegram"
-              fgColor="white"
-            />
-            <SocialIcon
-              url="https://twitter.com/mechanime_"
-              network="twitter"
-              fgColor="white"
-            />
-          </div>
 
-          <div className="flex flex-row items-center">
-            <Image
-              className="logo"
-              src="/logo.svg"
-              width={60}
-              height={60}
-              alt="Logo"
-            ></Image>
-            <p className="ticker m-2 lg:text-3xl md:text-2xl sm:text-2xl text-2xl text-white">
-              <a
-                className="hover:underline"
-                href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=G6KJREZ5TxiLUU6JwYcghbqDa91oU6D6oapM68P6N5Ve&outputSymbol=MECHA&fixed=in"
-              >
-                Ticker : $MECHA
-              </a>
-            </p>
-            <Image
-              className="logo"
-              src="/logo.svg"
-              width={60}
-              height={60}
-              alt="Logo"
-            ></Image>
-          </div>
         </div>
       </div>
     </>
