@@ -137,70 +137,24 @@ export default function Home() {
             colleagues at the time of their passing.
           </p>
         </div>
-        <div className="flex flex-row justify-center mb-4 space-x-3">
-          <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a
-                className="hover:underline"
-                href="https://solscan.io/tx/2ccG1HMedF1XrP5qkSjEdaE4adSutSWwEpBUYqcYxHMzdiUedsuskFYcx1zAQG6SxCre8bRkaR3D5u3xSxBgHJF5"
-              >
-                LP Burnt
-              </a>
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Mint Revoked
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Immutable
-            </p>
-          </div>
 
-          <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Supply 10 Billion
-            </p>
-
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a className="hover:underline" href="https://">
-                Liquidity
-              </a>{" "}
-              90%
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a
-                className="hover:underline"
-                href="https://solscan.org/address/5cmYfaJckh1kzQ8bCpUs8rCWoYSdtvm16K6gUEApD6i"
-              >
-                Burns
-              </a>{" "}
-              5%
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              <a
-                className="hover:underline"
-                href="https://solscan.org/address/3eusjBZQzkpJwRQLN9pc3Hie4LjLGh3FssSQqZ3NyiZa"
-              >
-                Team
-              </a>{" "}
-              5%
-            </p>
-          </div>
-
-          <div className="p-2 text-center bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800 w-54">
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              Stealth Launch
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              No Presale
-            </p>
-            <p className="lg:text-2xl md:text-2xl sm:text-xl xs:text-lg text-md">
-              No Taxes
-            </p>
-          </div>
+        <div className="mx-auto mb-4 text-center max-w-lg bg-stone-100 bg-opacity-60 md:text-base sm:text-base rounded-lg outline outline-2 outline-slate-800">
+          <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
+            The honor guard can be present at a funeral, memorial service,
+            celebration of life service, or graveside service and provides
+            meaningful recognition with a short but very moving tribute ceremony
+            in honor of the nurse. We can also provide Living Tributes for
+            nurses in the last season of their life.
+          </p>
+          <p className="m-1 lg:text-2xl md:text-2xl sm:text-xl text-lg">
+            We serve Ontario County, Senecca County, Wayne County, and Yates
+            County and welcome new members to join us in serving our fallen
+            colleagues
+          </p>
         </div>
         <div className="flex justify-center">
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
-            Highlights
+            Spotlight
           </h2>
         </div>
 
@@ -216,7 +170,7 @@ export default function Home() {
 
         <div className="flex flex-col justify-center items-center">
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-3xl text-2xl">
-          Forever in Our Hearts: Treasured Memories
+            Forever in Our Hearts: Treasured Memories
           </h2>
           <SlideshowLightbox
             className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
@@ -236,8 +190,6 @@ export default function Home() {
               />
             ))}
           </SlideshowLightbox>
-
-
         </div>
       </div>
     </>
